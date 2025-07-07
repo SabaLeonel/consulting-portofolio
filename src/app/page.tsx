@@ -66,7 +66,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Plan d'épargne personnalisé
+                    Plan d&apos;épargne personnalisé
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
@@ -81,7 +81,7 @@ export default function Home() {
                 <TrendingUp className="h-12 w-12 text-blue-600 mb-4" />
                 <CardTitle className="text-xl">Conseil en Investissement</CardTitle>
                 <CardDescription>
-                  Stratégies d'investissement adaptées à votre profil et vos objectifs financiers
+                  Stratégies d&apos;investissement adaptées à votre profil et vos objectifs financiers
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -120,7 +120,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Plans d'épargne retraite
+                    Plans d&apos;épargne retraite
                   </li>
                 </ul>
               </CardContent>
@@ -226,7 +226,7 @@ export default function Home() {
                       <Users className="h-6 w-6 text-blue-600 mt-1" />
                       <div>
                         <h4 className="font-semibold text-gray-900">Enseignant Universitaire</h4>
-                        <p className="text-gray-600">Droit et Économie - 10 ans d'expérience</p>
+                        <p className="text-gray-600">Droit et Économie - 10 ans d&apos;expérience</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-3">
@@ -243,7 +243,7 @@ export default function Home() {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Ma Mission</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Fort de mon expérience académique et de ma passion pour l'enseignement, je mets mon expertise au
+                  Fort de mon expérience académique et de ma passion pour l&apos;enseignement, je mets mon expertise au
                   service des particuliers pour les aider à prendre les meilleures décisions financières.
                 </p>
                 <p className="text-gray-600 mb-8 leading-relaxed">
@@ -258,7 +258,7 @@ export default function Home() {
                   </div>
                   <div className="text-center p-4 bg-blue-50 rounded-lg">
                     <div className="text-2xl font-bold text-blue-600">10</div>
-                    <div className="text-sm text-gray-600">Années d'expérience</div>
+                    <div className="text-sm text-gray-600">Années d&apos;expérience</div>
                   </div>
                 </div>
               </div>
@@ -282,7 +282,7 @@ export default function Home() {
                 <AccordionContent className="text-gray-600 pt-4">
                   La première consultation dure environ 1h30. Nous faisons le point sur votre situation financière
                   actuelle, vos objectifs et vos préoccupations. Je vous présente ensuite mes recommandations
-                  personnalisées et nous établissons ensemble un plan d'action.
+                  personnalisées et nous établissons ensemble un plan d&apos;action.
                 </AccordionContent>
               </AccordionItem>
 
@@ -300,18 +300,18 @@ export default function Home() {
                   Proposez-vous des consultations à distance ?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  Oui, je propose des consultations en visioconférence pour s'adapter à vos contraintes. Les rendez-vous
+                  Oui, je propose des consultations en visioconférence pour s&apos;adapter à vos contraintes. Les rendez-vous
                   en présentiel restent possibles dans mon bureau ou à votre domicile selon vos préférences.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-4" className="border border-gray-200 rounded-lg px-6">
                 <AccordionTrigger className="text-left font-semibold">
-                  Quel est votre domaine d'expertise principal ?
+                  Quel est votre domaine d&apos;expertise principal ?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
                   Je me spécialise dans le conseil financier pour particuliers : gestion de budget, optimisation
-                  fiscale, préparation retraite et stratégies d'investissement. Mon background juridique me permet aussi
+                  fiscale, préparation retraite et stratégies d&apos;investissement. Mon background juridique me permet aussi
                   de vous conseiller sur les aspects légaux de vos décisions financières.
                 </AccordionContent>
               </AccordionItem>
@@ -321,8 +321,8 @@ export default function Home() {
                   Travaillez-vous avec tous types de profils ?
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-4">
-                  J'accompagne tous les profils : jeunes actifs, familles, seniors, entrepreneurs. Que vous débutiez
-                  dans la vie active ou prépariez votre retraite, j'adapte mes conseils à votre situation et vos
+                  J&apos;accompagne tous les profils : jeunes actifs, familles, seniors, entrepreneurs. Que vous débutiez
+                  dans la vie active ou prépariez votre retraite, j&apos;adapte mes conseils à votre situation et vos
                   objectifs spécifiques.
                 </AccordionContent>
               </AccordionItem>

@@ -1,14 +1,26 @@
+'use client';
+
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { getCalApi } from "@calcom/embed-react";
 import { Calculator, Calendar, CheckCircle, Clock, FileText, GraduationCap, Phone, Shield, TrendingUp, Users } from "lucide-react";
+import { useEffect } from "react";
 
 export default function Home() {
+
+  useEffect(() => {
+    (async function () {
+      const cal = await getCalApi({ "namespace": "30min" });
+      cal("ui", { "theme": "light", "hideEventTypeDetails": false, "layout": "month_view" });
+    })();
+  }, [])
+
   return (
- <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       <Header />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-blue-50 to-white">
@@ -26,7 +38,12 @@ export default function Home() {
               financier. Une expertise académique au service des particuliers.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-4">
+              <Button
+                size="lg"
+                className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-4"
+                data-cal-namespace="30min"
+                data-cal-link="sabaleonel/30min"
+                data-cal-config='{"layout":"month_view"}'>
                 <Calendar className="h-5 w-5 mr-2" />
                 Réserver une Consultation
               </Button>
@@ -349,7 +366,10 @@ export default function Home() {
             Réservez votre consultation gratuite de 30 minutes et découvrez comment améliorer votre situation financière
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-4">
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-4"
+              data-cal-namespace="30min"
+              data-cal-link="sabaleonel/30min"
+              data-cal-config='{"layout":"month_view"}'>
               <Calendar className="h-5 w-5 mr-2" />
               Réserver ma Consultation Gratuite
             </Button>

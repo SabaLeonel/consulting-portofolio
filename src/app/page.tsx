@@ -367,9 +367,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-4"
-              data-cal-namespace="30min"
-              data-cal-link="sabaleonel/30min"
-              data-cal-config='{"layout":"month_view"}'>
+            // data-cal-namespace="30min"
+            // data-cal-link="sabaleonel/30min"
+            // data-cal-config='{"layout":"month_view"}'
+            >
               <Calendar className="h-5 w-5 mr-2" />
               Réserver ma Consultation Gratuite
             </Button>

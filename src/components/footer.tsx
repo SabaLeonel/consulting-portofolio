@@ -14,7 +14,7 @@ export default function Footer() {
                 </div>
               </div>
               <p className="text-gray-400 leading-relaxed">
-                Expert en conseil financier avec une approche pédagogique pour vous accompagner vers l'indépendance
+                Expert en conseil financier avec une approche pédagogique pour vous accompagner vers l&apos;indépendance
                 financière.
               </p>
             </div>
@@ -47,7 +47,6 @@ export default function Footer() {
               </div>
             </div>
           </div>
-
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; {new Date().getFullYear()} John Doe. Tous droits réservés.</p>
           </div>
